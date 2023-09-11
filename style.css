@@ -1,0 +1,41 @@
+@charset "utf-8";
+.display  {
+  text-align: right;
+}
+
+
+td {
+  display: inline-block;
+}
+
+.button {
+  padding: 3px 12px;
+}
+
+.button_column2 td:nth-child(4) input {
+  padding: 3px 13.5px;
+}
+
+.button_column3 td:nth-child(4) input {
+  padding: 3px 13px;
+}
+
+.button_column4 td:nth-child(2) input {
+  padding: 3px 8.5px;
+}
+
+.button_column4 td:nth-child(3) input {
+  padding: 3px 14px;
+}
+
+.button_column4 td:nth-child(4) input {
+  padding: 3px 13.5px;
+}
+
+.button_column5 td:nth-child(1) input {
+  padding: 3px 25.5px;
+}
+
+.button_column5 td:nth-child(2) input {
+  padding: 3px 30px;
+}

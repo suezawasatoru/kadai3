@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+  
+  <table>
+    <tr>
+      <th>
+        <input type="text" id="result" class="display" value="0" disabled>
+      </th>
+    </tr>
+
+    <tr class="button_column1">
+      <td><input type="button" input value="7" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="8" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="9" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="+" class="button" onclick="calculation_button(this)"></td>
+    </tr>
+
+    <tr class="button_column2">
+      <td><input type="button" input value="4" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="5" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="6" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="-" class="button" onclick="calculation_button(this)"></td>
+    </tr>
+
+    <tr class="button_column3">
+      <td><input type="button" input value="1" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="2" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="3" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="*" class="button" onclick="calculation_button(this)"></td>
+    </tr>
+
+    <tr class="button_column4">
+      <td><input type="button" input value="0" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="00" class="button" onclick="number_button(this)"></td>
+      <td><input type="button" input value="." class="button" onclick="point_button(this)"></td>
+      <td><input type="button" input value="/" class="button" onclick="calculation_button(this)"></td>
+    </tr>
+
+    <tr class="button_column5">
+      <td><input type="button" input value="AC" class="button2" onclick="clear_button()"></td>
+      <td><input type="button" input value="=" class="button2" onclick="calc_button()"></td>
+    </tr>
+  </table>
+  
+  <script type="text/javascript" src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
